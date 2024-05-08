@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 html {
@@ -15,8 +18,35 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 header {
     background-color: aqua;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white
 }
 
 section {
@@ -26,4 +56,6 @@ section {
 
 footer {
     background-color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
