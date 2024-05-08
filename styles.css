@@ -32,20 +32,27 @@ nav {
 }
 
 nav ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 30px;
+
+    padding: 12px;
+
+
+}
+
+nav ul li:hover {
+    background-color: black;
+
 }
 
 nav ul li a {
     color: black;
 }
 
-nav ul li a:hover {
+nav ul li:hover a {
     color: white
 }
 
