@@ -37,10 +37,7 @@ nav ul {
 }
 
 nav ul li {
-
     padding: 12px;
-
-
 }
 
 nav ul li:hover {
@@ -63,6 +60,30 @@ section {
 
 footer {
     background-color: chocolate;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer div {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: green;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+div.foto {}
+
+.descripcion {}
+
+div.descripcion p {}
+
+.boton {
+    margin-top: 100px;
 }
