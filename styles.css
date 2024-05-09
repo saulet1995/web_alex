@@ -67,15 +67,20 @@ section {
 
 footer {
     background-color: #333;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     text-align: center;
 }
 
 footer div {
-    display: inline-block;
+    display: block;
     margin-right: 20px;
 
+}
+
+footer div:nth-child(2) {
+    color: white;
+    margin-top: 25px;
 }
 
 .presentacion {
