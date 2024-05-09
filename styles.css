@@ -16,7 +16,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("fondo.png");
+    background-image: url("imgs/fondo.png");
     background-size: cover;
     background-position: center;
 
@@ -75,7 +75,7 @@ footer {
 footer div {
     display: inline-block;
     margin-right: 20px;
-    background-color: green;
+
 }
 
 .presentacion {
@@ -103,5 +103,25 @@ div.descripcion p {
 
 .boton {
     margin-top: 100px;
+}
 
+div.redes {
+    display: inline-block;
+}
+
+div.redes img {
+    width: 42px;
+
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: visible;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+div.redes img:hover {
+    background-color: white;
+    border: 1px solid black;
 }
