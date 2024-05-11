@@ -9,7 +9,7 @@
 .izq {
     width: 48%;
     height: 100%;
-    background-color: darkgray;
+    background-color: rgb(200, 200, 200);
     float: left;
     border: 1px solid black;
     display: flex;
@@ -19,7 +19,7 @@
 .der {
     width: 48%;
     height: 100%;
-    background-color: darkgray;
+    background-color: rgb(200, 200, 200);
     float: right;
     border: 1px solid black;
     display: flex;
